@@ -57,7 +57,6 @@ export default function normalizeComponent (
         context._registeredComponents.add(moduleIdentifier)
       }
       if (context) {
-        console.log('hello')
         if (!context.modules) {
           context.modules = new Set();
         }
